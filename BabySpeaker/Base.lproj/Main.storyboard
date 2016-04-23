@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,161 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WdP-jw-FBI">
+                                <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                                <state key="normal" title="корова" image="cow2.jpg"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                </variation>
+                                <connections>
+                                    <action selector="cow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a5E-8H-RVA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="42t-BQ-K16">
+                                <rect key="frame" x="90" y="0.0" width="90" height="90"/>
+                                <state key="normal" title="дельфин" image="dolphin1.jpg">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="200" y="0.0" width="200" height="200"/>
+                                </variation>
+                                <connections>
+                                    <action selector="dolfin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Au0-8u-mMB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pmc-sg-Nf7">
+                                <rect key="frame" x="180" y="0.0" width="90" height="90"/>
+                                <state key="normal" title="ягуар" image="yaguar.jpg"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="400" y="0.0" width="200" height="200"/>
+                                </variation>
+                                <connections>
+                                    <action selector="jaguar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J3s-P7-DaU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="awq-lR-hha">
+                                <rect key="frame" x="376" y="0.0" width="90" height="90"/>
+                                <state key="normal" title="крик петуха" image="chicken.jpg"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="600" y="0.0" width="200" height="200"/>
+                                </variation>
+                                <connections>
+                                    <action selector="chiken:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3aB-Px-WgS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kvo-Ah-yn9">
+                                <rect key="frame" x="0.0" y="90" width="90" height="90"/>
+                                <state key="normal" title="собака" image="dog1.jpeg"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="200" width="200" height="200"/>
+                                </variation>
+                                <connections>
+                                    <action selector="dog:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r0X-M3-H8H"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nVs-AX-DOH">
+                                <rect key="frame" x="90" y="90" width="90" height="90"/>
+                                <state key="normal" title="лошадь" image="horse1.jpg"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="200" y="200" width="200" height="200"/>
+                                </variation>
+                                <connections>
+                                    <action selector="horse:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Ra-KH-f91"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w3g-ZE-10y">
+                                <rect key="frame" x="180" y="90" width="90" height="90"/>
+                                <state key="normal" title="муха" image="fly1.jpg"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="400" y="200" width="200" height="200"/>
+                                </variation>
+                                <connections>
+                                    <action selector="fly:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R7E-gq-A7w"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="439-ga-LG1">
+                                <rect key="frame" x="278" y="90" width="90" height="90"/>
+                                <state key="normal" title="крик орла" image="eagle1.jpg"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="600" y="200" width="200" height="200"/>
+                                </variation>
+                                <connections>
+                                    <action selector="eagle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FQ7-xe-Gj7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YnN-We-GRh">
+                                <rect key="frame" x="278" y="0.0" width="90" height="90"/>
+                                <state key="normal" title="утка" image="duck.jpg"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="400" width="200" height="200"/>
+                                </variation>
+                                <connections>
+                                    <action selector="duck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xzD-q3-Jos"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1XG-P0-Oux">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="слон"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="200" y="400" width="200" height="200"/>
+                                </variation>
+                                <connections>
+                                    <action selector="elephant:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ndB-ip-BRv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Yg-mE-fQZ">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="козленок"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="400" y="400" width="200" height="200"/>
+                                </variation>
+                                <connections>
+                                    <action selector="goat:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cvp-Ww-hOm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HHf-Mf-Zy5">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="воробей"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="600" y="400" width="200" height="200"/>
+                                </variation>
+                                <connections>
+                                    <action selector="sparrow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sR3-da-2TG"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="1XG-P0-Oux"/>
+                                <exclude reference="1Yg-mE-fQZ"/>
+                                <exclude reference="HHf-Mf-Zy5"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="1XG-P0-Oux"/>
+                                <include reference="1Yg-mE-fQZ"/>
+                                <include reference="HHf-Mf-Zy5"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="280" y="303"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="chicken.jpg" width="200" height="200"/>
+        <image name="cow2.jpg" width="200" height="200"/>
+        <image name="dog1.jpeg" width="200" height="200"/>
+        <image name="dolphin1.jpg" width="200" height="200"/>
+        <image name="duck.jpg" width="200" height="200"/>
+        <image name="eagle1.jpg" width="200" height="200"/>
+        <image name="fly1.jpg" width="200" height="200"/>
+        <image name="horse1.jpg" width="200" height="200"/>
+        <image name="yaguar.jpg" width="200" height="200"/>
+    </resources>
 </document>

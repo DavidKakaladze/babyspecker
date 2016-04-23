@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63089A571C39C3E90020562C /* dog1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 63089A521C39C3E90020562C /* dog1.jpeg */; };
+		63089A581C39C3E90020562C /* dolphin1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63089A531C39C3E90020562C /* dolphin1.jpg */; };
+		63089A591C39C3E90020562C /* eagle1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63089A541C39C3E90020562C /* eagle1.jpg */; };
+		63089A5A1C39C3E90020562C /* fly1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63089A551C39C3E90020562C /* fly1.jpg */; };
+		63089A5B1C39C3E90020562C /* horse1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63089A561C39C3E90020562C /* horse1.jpg */; };
+		63089A5D1C39C5150020562C /* duck.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63089A5C1C39C5150020562C /* duck.jpg */; };
 		63DA1C481C37DD43006128BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DA1C471C37DD43006128BE /* main.m */; };
 		63DA1C4B1C37DD43006128BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DA1C4A1C37DD43006128BE /* AppDelegate.m */; };
 		63DA1C4E1C37DD43006128BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DA1C4D1C37DD43006128BE /* ViewController.m */; };
@@ -15,6 +21,21 @@
 		63DA1C561C37DD43006128BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63DA1C541C37DD43006128BE /* LaunchScreen.storyboard */; };
 		63DA1C611C37DD44006128BE /* BabySpeakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DA1C601C37DD44006128BE /* BabySpeakerTests.m */; };
 		63DA1C6C1C37DD44006128BE /* BabySpeakerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DA1C6B1C37DD44006128BE /* BabySpeakerUITests.m */; };
+		63DA1C821C37DECB006128BE /* Cow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63DA1C791C37DECB006128BE /* Cow.mp3 */; };
+		63DA1C831C37DECB006128BE /* delfin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63DA1C7A1C37DECB006128BE /* delfin.mp3 */; };
+		63DA1C841C37DECB006128BE /* jaguar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63DA1C7B1C37DECB006128BE /* jaguar.mp3 */; };
+		63DA1C851C37DECB006128BE /* krik_orla.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63DA1C7C1C37DECB006128BE /* krik_orla.mp3 */; };
+		63DA1C861C37DECB006128BE /* krik_petukha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63DA1C7D1C37DECB006128BE /* krik_petukha.mp3 */; };
+		63DA1C871C37DECB006128BE /* krjakane_utki.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63DA1C7E1C37DECB006128BE /* krjakane_utki.mp3 */; };
+		63DA1C881C37DECB006128BE /* laj_sobaki.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63DA1C7F1C37DECB006128BE /* laj_sobaki.mp3 */; };
+		63DA1C891C37DECB006128BE /* rzhanie_loshadi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63DA1C801C37DECB006128BE /* rzhanie_loshadi.mp3 */; };
+		63DA1C8A1C37DECB006128BE /* zhuzhanie_mukhi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63DA1C811C37DECB006128BE /* zhuzhanie_mukhi.mp3 */; };
+		63F897C61C39BD430056D48F /* chicken.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63F897C21C39BD430056D48F /* chicken.jpg */; };
+		63F897C71C39BD430056D48F /* cow2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63F897C31C39BD430056D48F /* cow2.jpg */; };
+		63F897C91C39BD430056D48F /* yaguar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63F897C51C39BD430056D48F /* yaguar.jpg */; };
+		63FD541E1C6A7FAE00A7DE6B /* sparrow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63FD541D1C6A7FAE00A7DE6B /* sparrow.mp3 */; };
+		63FD54211C6A7FBD00A7DE6B /* elphant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63FD541F1C6A7FBD00A7DE6B /* elphant.mp3 */; };
+		63FD54221C6A7FBD00A7DE6B /* goat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63FD54201C6A7FBD00A7DE6B /* goat.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +56,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63089A521C39C3E90020562C /* dog1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog1.jpeg; sourceTree = "<group>"; };
+		63089A531C39C3E90020562C /* dolphin1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dolphin1.jpg; sourceTree = "<group>"; };
+		63089A541C39C3E90020562C /* eagle1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eagle1.jpg; sourceTree = "<group>"; };
+		63089A551C39C3E90020562C /* fly1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fly1.jpg; sourceTree = "<group>"; };
+		63089A561C39C3E90020562C /* horse1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = horse1.jpg; sourceTree = "<group>"; };
+		63089A5C1C39C5150020562C /* duck.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = duck.jpg; sourceTree = "<group>"; };
 		63DA1C431C37DD43006128BE /* BabySpeaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabySpeaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63DA1C471C37DD43006128BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63DA1C491C37DD43006128BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +78,21 @@
 		63DA1C671C37DD44006128BE /* BabySpeakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabySpeakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63DA1C6B1C37DD44006128BE /* BabySpeakerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BabySpeakerUITests.m; sourceTree = "<group>"; };
 		63DA1C6D1C37DD44006128BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63DA1C791C37DECB006128BE /* Cow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Cow.mp3; sourceTree = "<group>"; };
+		63DA1C7A1C37DECB006128BE /* delfin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = delfin.mp3; sourceTree = "<group>"; };
+		63DA1C7B1C37DECB006128BE /* jaguar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jaguar.mp3; sourceTree = "<group>"; };
+		63DA1C7C1C37DECB006128BE /* krik_orla.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = krik_orla.mp3; sourceTree = "<group>"; };
+		63DA1C7D1C37DECB006128BE /* krik_petukha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = krik_petukha.mp3; sourceTree = "<group>"; };
+		63DA1C7E1C37DECB006128BE /* krjakane_utki.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = krjakane_utki.mp3; sourceTree = "<group>"; };
+		63DA1C7F1C37DECB006128BE /* laj_sobaki.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = laj_sobaki.mp3; sourceTree = "<group>"; };
+		63DA1C801C37DECB006128BE /* rzhanie_loshadi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rzhanie_loshadi.mp3; sourceTree = "<group>"; };
+		63DA1C811C37DECB006128BE /* zhuzhanie_mukhi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zhuzhanie_mukhi.mp3; sourceTree = "<group>"; };
+		63F897C21C39BD430056D48F /* chicken.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chicken.jpg; sourceTree = "<group>"; };
+		63F897C31C39BD430056D48F /* cow2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cow2.jpg; sourceTree = "<group>"; };
+		63F897C51C39BD430056D48F /* yaguar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yaguar.jpg; sourceTree = "<group>"; };
+		63FD541D1C6A7FAE00A7DE6B /* sparrow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sparrow.mp3; sourceTree = "<group>"; };
+		63FD541F1C6A7FBD00A7DE6B /* elphant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elphant.mp3; sourceTree = "<group>"; };
+		63FD54201C6A7FBD00A7DE6B /* goat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = goat.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +160,8 @@
 			isa = PBXGroup;
 			children = (
 				63DA1C471C37DD43006128BE /* main.m */,
+				63F897C11C39BD1D0056D48F /* pics */,
+				63DA1C8D1C37E387006128BE /* sounds */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +182,41 @@
 				63DA1C6D1C37DD44006128BE /* Info.plist */,
 			);
 			path = BabySpeakerUITests;
+			sourceTree = "<group>";
+		};
+		63DA1C8D1C37E387006128BE /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				63FD541D1C6A7FAE00A7DE6B /* sparrow.mp3 */,
+				63FD541F1C6A7FBD00A7DE6B /* elphant.mp3 */,
+				63FD54201C6A7FBD00A7DE6B /* goat.mp3 */,
+				63DA1C7C1C37DECB006128BE /* krik_orla.mp3 */,
+				63DA1C7B1C37DECB006128BE /* jaguar.mp3 */,
+				63DA1C7A1C37DECB006128BE /* delfin.mp3 */,
+				63DA1C7D1C37DECB006128BE /* krik_petukha.mp3 */,
+				63DA1C7F1C37DECB006128BE /* laj_sobaki.mp3 */,
+				63DA1C801C37DECB006128BE /* rzhanie_loshadi.mp3 */,
+				63DA1C811C37DECB006128BE /* zhuzhanie_mukhi.mp3 */,
+				63DA1C7E1C37DECB006128BE /* krjakane_utki.mp3 */,
+				63DA1C791C37DECB006128BE /* Cow.mp3 */,
+			);
+			name = sounds;
+			sourceTree = "<group>";
+		};
+		63F897C11C39BD1D0056D48F /* pics */ = {
+			isa = PBXGroup;
+			children = (
+				63F897C21C39BD430056D48F /* chicken.jpg */,
+				63F897C31C39BD430056D48F /* cow2.jpg */,
+				63F897C51C39BD430056D48F /* yaguar.jpg */,
+				63089A521C39C3E90020562C /* dog1.jpeg */,
+				63089A531C39C3E90020562C /* dolphin1.jpg */,
+				63089A541C39C3E90020562C /* eagle1.jpg */,
+				63089A551C39C3E90020562C /* fly1.jpg */,
+				63089A561C39C3E90020562C /* horse1.jpg */,
+				63089A5C1C39C5150020562C /* duck.jpg */,
+			);
+			name = pics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,8 +325,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63DA1C8A1C37DECB006128BE /* zhuzhanie_mukhi.mp3 in Resources */,
+				63089A5D1C39C5150020562C /* duck.jpg in Resources */,
+				63F897C91C39BD430056D48F /* yaguar.jpg in Resources */,
+				63DA1C861C37DECB006128BE /* krik_petukha.mp3 in Resources */,
+				63089A5B1C39C3E90020562C /* horse1.jpg in Resources */,
+				63FD541E1C6A7FAE00A7DE6B /* sparrow.mp3 in Resources */,
 				63DA1C561C37DD43006128BE /* LaunchScreen.storyboard in Resources */,
+				63F897C61C39BD430056D48F /* chicken.jpg in Resources */,
+				63FD54211C6A7FBD00A7DE6B /* elphant.mp3 in Resources */,
+				63F897C71C39BD430056D48F /* cow2.jpg in Resources */,
+				63DA1C891C37DECB006128BE /* rzhanie_loshadi.mp3 in Resources */,
+				63089A5A1C39C3E90020562C /* fly1.jpg in Resources */,
+				63DA1C851C37DECB006128BE /* krik_orla.mp3 in Resources */,
+				63089A571C39C3E90020562C /* dog1.jpeg in Resources */,
 				63DA1C531C37DD43006128BE /* Assets.xcassets in Resources */,
+				63DA1C871C37DECB006128BE /* krjakane_utki.mp3 in Resources */,
+				63DA1C881C37DECB006128BE /* laj_sobaki.mp3 in Resources */,
+				63FD54221C6A7FBD00A7DE6B /* goat.mp3 in Resources */,
+				63089A591C39C3E90020562C /* eagle1.jpg in Resources */,
+				63DA1C841C37DECB006128BE /* jaguar.mp3 in Resources */,
+				63DA1C821C37DECB006128BE /* Cow.mp3 in Resources */,
+				63089A581C39C3E90020562C /* dolphin1.jpg in Resources */,
+				63DA1C831C37DECB006128BE /* delfin.mp3 in Resources */,
 				63DA1C511C37DD43006128BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,6 +601,7 @@
 				63DA1C721C37DD44006128BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63DA1C731C37DD44006128BE /* Build configuration list for PBXNativeTarget "BabySpeakerTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +610,7 @@
 				63DA1C751C37DD44006128BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63DA1C761C37DD44006128BE /* Build configuration list for PBXNativeTarget "BabySpeakerUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +619,7 @@
 				63DA1C781C37DD44006128BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
